@@ -7,12 +7,13 @@ body {
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Starts left section */
 
 .left {
-    background-color: #303a4c;
+    background-color: #232c3a;
     color: white;
 }
 
@@ -24,11 +25,112 @@ body {
 
 .icons {
     display: flex;
-    flex-direction: row;
     list-style-type: none;
 }
 
 /* Ends left section 
 Starts right section */
+
+.content__right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+
+.title {
+    color: #232c3a;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.social {
+    display: flex;
+    list-style-type: none;
+}
+
+.square {
+    padding: 15px;
+    background-color: #edf2f7;
+    margin: 0 0.5rem 1rem 0.5rem;
+    border-radius: 10px;
+}
+
+.line__text {
+    display: flex;
+    margin: 0 0 1rem 0;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    color: #4f5c6f;
+}
+
+.line__text hr {
+    width: 25%;
+    color: #edf2f7;
+}
+
+.input__fields {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    color: #232c3a;
+    font-size: 0.8rem;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+.label__input {
+    background-color: #edf2f7;
+    border-radius: 10px;
+    padding: 1em;
+    border: none;
+    color: #4f5c6f;
+    font-size: 0.8rem;
+}
+
+.character__warning {
+    margin-top: 5px;
+    font-size: 0.6rem;
+    font-weight: 600;
+    color: #4f5c6f;
+}
+
+.remember__forgot {
+    display: flex;
+    margin-bottom: 1rem;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #232c3a;
+}
+
+.forgot a {
+    text-decoration: none;
+    color: #4c6fff;
+
+}
+
+.sign__in__button {
+    width: 100%;
+    background-color: #4c6fff;
+    border-radius: 10px;
+    padding: 1em;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.rights__reserved {
+    font-size: 0.6rem;
+    color: #4f5c6f;
+}
 
 /* Ends right section */
