@@ -21,7 +21,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 35%;
+    margin-top: 33%;
 }
 
 .icons {
@@ -29,6 +29,7 @@ body {
     list-style-type: none;
     justify-content: space-evenly;
     width: 100%;
+    margin-bottom: 1rem;
 }
 
 .circle {
@@ -38,12 +39,23 @@ body {
     border-radius: 50%;
     height: 150px;
     width: 150px;
-    background-color: aqua;
     position: relative;
 }
 
+.circle__first {
+    background-color: orange;
+}
+
+.circle__second {
+    background-color: purple;
+}
+
+.circle__third {
+    background-color: aqua;
+}
+
 .fa-cloud {
-    color: red;
+    color: yellow;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -75,6 +87,7 @@ body {
     margin: 1rem 0.5rem;
     color: #4f5c6f;
     border-style: none;
+    font-size: 1.2rem;
 }
 
 .carrossel__back {
