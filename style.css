@@ -95,6 +95,22 @@ body {
     color: white;
 }
 
+.carrossel__back:hover {
+    background-color: #6a788f;
+}
+
+.carrossel__back:active {
+    background-color: #505c70;
+}
+
+.carrossel__foward:hover {
+    background-color: #dde3e9;
+}
+
+.carrossel__foward:active {
+    background-color: #bec5cc;
+}
+
 /* Ends left section 
 Starts right section */
 
@@ -126,6 +142,15 @@ Starts right section */
     margin: 0 0.7rem 1rem 0.7rem;
     border-radius: 10px;
     height: 32px;
+    cursor: pointer;
+}
+
+.square:hover {
+    background-color: #dde3e9;
+}
+
+.square:active {
+    background-color: #bec5cc;
 }
 
 .square img {
@@ -170,6 +195,14 @@ Starts right section */
     font-size: 0.8rem;
 }
 
+.label__input:hover {
+    background-color: #dde3e9;
+}
+
+.label__input:active {
+    background-color: #bec5cc;
+}
+
 .character__warning {
     margin-top: 5px;
     font-size: 0.6rem;
@@ -193,6 +226,14 @@ Starts right section */
 
 }
 
+.forgot a:hover {
+    color: #3755ce;
+}
+
+.forgot a:active {
+    color: #253885;
+}
+
 .sign__in__button {
     width: 100%;
     background-color: #4c6fff;
@@ -202,6 +243,14 @@ Starts right section */
     font-weight: 500;
     margin-bottom: 2rem;
     cursor: pointer;
+}
+
+.sign__in__button:hover {
+    background-color: #3755ce;
+}
+
+.sign__in__button:active {
+    background-color: #253885;
 }
 
 .rights__reserved {
