@@ -43,17 +43,16 @@ body {
 }
 
 .circle__first {
-    background-color: orange;
+    background-image: linear-gradient(45deg, orangered, yellow);
 }
 
 .circle__second {
-    background-color: purple;
-}
+    background-image: linear-gradient(45deg, blue, purple);}
 
 .circle__third {
-    background-color: aqua;
-}
+    background-image: linear-gradient(45deg, greenyellow, aqua);}
 
+/*
 .fa-cloud {
     color: yellow;
     position: absolute;
@@ -61,6 +60,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+*/
 
 .left__title {
     color: white;
