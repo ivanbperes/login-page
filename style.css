@@ -259,3 +259,22 @@ Starts right section */
 }
 
 /* Ends right section */
+
+@media (max-width: 1023px) {
+    .left {
+        display: none;
+    }
+
+    .content__right {
+        position: absolute;
+    }
+
+
+}
+
+@media (max-width: 580px) {
+
+    .content__right {
+        width: 80%;
+    }
+}
